@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfume Hub</title>
+  <!-- linking font awesome for icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- header / navbar -->
+  <header>
+    <nav class="navbar section-content">
+      <a href="" class="nav-logo">
+        <h2 class="logo-text">PERFUME HUB</h2>
+      </a>
+      <ul class="nav-menu">
+        <button id="menu-close-button" class="fas fa-times"></button>
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <!-- <li class="nav-item">
+                    <a href="" class="nav-link">About</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="" class="nav-link">Menu</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="" class="nav-link">Gallery</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="" class="nav-link">Contact</a>
+                </li> -->
+        <li class="nav-item">
+          <a href="cart.html" class="nav-link">Order</a>
+        </li>
+      </ul>
+      <button id="menu-open-button" class="fas fa-bars"></button>
+    </nav>
+  </header>
+
+  <!-- section 1 -->
+  <section class="menu-section" id="menu">
+    <h2 class="section-title">Our Product</h2>
+    <hr>
+    <div class="section-content">
+
+      <!-- item 1 -->
+      <h2 class="section-title">Men's</h2>
+      <ul class="menu-list">
+        <li class="menu-item">
+          <img src="pic9.jpg" alt="men" class="menu-image">
+          <h3 class="name">SHER DIL</h3>
+          <p class="text">&#8594 Rs : 10,030.00 &#8592</p>
+          <div class="btn1">
+
+            <button href="cart.html" class="button order-now" onclick="addToCart('',  )">Order Now</button>
+          </div>
+        </li>
+
+        <!-- item 2 -->
+        <li class="menu-item">
+          <img src="pic16.jpg" alt="men" class="menu-image">
+          <h3 class="name">JANAN GOLD</h3>
+          <p class="text">&#8594 Rs : 5,610.00 &#8592</p>
+          <div class="btn1">
+            <button href="cart.html" class="button order-now" onclick="addToCart('',  )">Order Now</button>
+          </div>
+        </li>
+        <!-- item 3 -->
+        <li class="menu-item">
+          <img src="pic15.jpg" alt="men" class="menu-image">
+          <h3 class="name">JAGUAR</h3>
+          <p class="text">&#8594 Rs : 8,050.00 &#8592</p>
+          <div class="btn1">
+            <button href="cart.html" class="button order-now" onclick="addToCart('', )">Order Now</button>
+          </div>
+        </li>
+        <!-- item 4 -->
+        <li class="menu-item">
+          <img src="pic13.jpg" alt="men" class="menu-image">
+          <h3 class="name">BOSS HUGO</h3>
+          <p class="text">&#8594 Rs : 24,310.00 &#8592</p>
+          <div class="btn1">
+            <button href="cart.html" class="button order-now" onclick="addToCart('',  )">Order Now</button>
+          </div>
+        </li>
+
+        <!-- item 5 -->
+        <li class="menu-item">
+          <img src="pic25.jpg" alt="men" class="menu-image">
+          <h3 class="name">PRIME</h3>
+          <p class="text">&#8594 Rs : 2,500.00 &#8592</p>
+          <div class="btn1">
+            <button href="cart.html" class="button order-now" onclick="addToCart('',  )">Order Now</button>
+          </div>
+        </li>
+        <!-- item 6 -->
+        <li class="menu-item">
+          <img src="pic11.jpg" alt="men" class="menu-image">
+          <h3 class="name">PANA DORA</h3>
+          <p class="text">&#8594 Rs : 99,000.00</p>
+          <div class="btn1">
+            <button href="cart.html" class="button order-now" onclick="addToCart('', )">Order Now</button>
+          </div>
+        </li>
+  </section>
+
+  <!-- section 2 -->
+  <section class="menu-section" id="menu">
+    <div class="section-content">
+
+      <!-- item 1 -->
+      <h2 class="section-title">WOMEN'S</h2>
+      <ul class="menu-list">
+        <li class="menu-item">
+          <img src="pic19.jpg" alt="WOMEN'S" class="menu-image">
+          <h3 class="name">MESMERISE</h3>
+          <p class="text">&#8594 Rs :4,490.00 </p>
+          <div class="btn1">
+            <button href="cart.html" class="button order-now" onclick="addToCart('', )">Order Now</button>
+          </div>
+        </li>
+        <!-- item 2 -->
+        <li class="menu-item">
+          <img src="pic.20jpg.jpg" alt="WOMEN'S" class="menu-image">
+          <h3 class="name">CHANEL</h3>
+          <p class="text">&#8594 Rs : 5,500.00 </p>
+          <div class="btn1">
+            <button href="cart.html" class="button order-now" onclick="addToCart('', )">Order Now</button>
+          </div>
+        </li>
+        <!-- item 3 -->
+        <li class="menu-item">
+          <img src="pic3.jpg" alt="WOMEN'S" class="menu-image">
+          <h3 class="name">FLORAL PARADE</h3>
+          <p class="text">&#8594 Rs : 3,500.00</p>
+          <div class="btn1">
+            <button href="cart.html" class="button order-now" onclick="addToCart('', )">Order Now</button>
+          </div>
+        </li>
+        <!-- item 4 -->
+        <li class="menu-item">
+          <img src="pic4.jpg" alt="WOMEN'S" class="menu-image">
+          <h3 class="name">POUR FEMME</h3>
+          <p class="text">&#8594 Rs : 5,999.00</p>
+          <div class="btn1">
+            <button href="cart.html" class="button order-now" onclick="addToCart('', )">Order Now</button>
+          </div>
+        </li>
+        <!-- item 5 -->
+        <li class="menu-item">
+          <img src="pic14.jpg" alt="WOMEN'S" class="menu-image">
+          <h3 class="name">QUEEN OF PARADISE</h3>
+          <p class="text">&#8594 Rs : 12,348.00</p>
+          <div class="btn1">
+            <button href="cart.html" class="button order-now" onclick="addToCart('', )">Order Now</button>
+          </div>
+        </li>
+        <!-- item 6 -->
+        <li class="menu-item">
+          <img src="pic18.jpg" alt="WOMEN'S" class="menu-image">
+          <h3 class="name">JIMMY CHOO</h3>
+          <p class="text">&#8594 Rs : 15,000.00</p>
+          <div class="btn1">
+            <button href="cart.html" class="button order-now" onclick="addToCart('', )">Order Now</button>
+          </div>
+        </li>
+  </section>
+  <!-- section 5 -->
+  <section class="menu-section" id="menu">
+    <div class="section-content">
+
+      <!-- item 1 -->
+      <h2 class="section-title">OUD</h2>
+      <ul class="menu-list">
+        <li class="menu-item">
+          <img src="pic.jpg" alt="OUD" class="menu-image">
+          <h3 class="name">MYSTIQUE OUD</h3>
+          <p class="text">&#8594 Rs : 4,000.00</p>
+          <div class="btn1">
+            <button href="cart.html" class="button order-now" onclick="addToCart('', )">Order Now</button>
+          </div>
+        </li>
+        <!-- item 2 -->
+        <li class="menu-item">
+          <img src="pic23.jpg" alt="OUD" class="menu-image">
+          <h3 class="name">OUDH QADIM</h3>
+          <p class="text">&#8594 Rs : 3,750.00 </p>
+          <div class="btn1">
+            <button href="cart.html" class="button order-now" onclick="addToCart('', )">Order Now</button>
+          </div>
+        </li>
+        <!-- item 3 -->
+        <li class="menu-item">
+          <img src="pic6.jpg" alt="OUD" class="menu-image">
+          <h3 class="name">JANAN OUD</h3>
+          <p class="text">&#8594 Rs :7,099.00</p>
+          <div class="btn1">
+            <button href="cart.html" class="button order-now" onclick="addToCart('', )">Order Now</button>
+          </div>
+        </li>
+        <!-- item 4 -->
+        <li class="menu-item">
+          <img src="pic17.jpg" alt="OUD" class="menu-image">
+          <h3 class="name">OUD AL RIMMAL</h3>
+          <p class="text">&#8594 Rs : 4,000.00</p>
+          <div class="btn1">
+            <button href="cart.html" class="button order-now" onclick="addToCart('', )">Order Now</button>
+          </div>
+        </li>
+        <!-- item 5 -->
+        <li class="menu-item">
+          <img src="pic22.jpg" alt="OUD" class="menu-image">
+          <h3 class="name">OUD DESERT GOLD</h3>
+          <p class="text">&#8594 Rs : 11,250.00</p>
+          <div class="btn1">
+            <button href="cart.html" class="button order-now" onclick="addToCart('', )">Order Now</button>
+          </div>
+        </li>
+    <!-- item 6 -->
+        <li class="menu-item">
+          <img src="pic.24.jpg" alt="OUD" class="menu-image">
+          <h3 class="name">PASSION OUD</h3>
+          <p class="text">&#8594 Rs : 2,500.00</p>
+          <div class="btn1">
+            <button href="cart.html" class="button order-now" onclick="addToCart('', )">Order Now</button>
+          </div>
+        </li>
+          </div>
+        </li>
+  </section>
+
+
+
+
+  <!-- footer -->
+  <footer class="footer-section">
+    <div class="section-content">
+      <p class="copyright-text">@ 2025 Perfume hub shop</p>
+      <div class="social-link-list">
+        <a href="#" class="social-link"><i class="fa-brands.fa-facebook"></i></a>
+        <a href="#" class="social-link"><i class="fa-brands.fa-instagram"></i></a>
+        <a href="#" class="social-link"><i class="fa-brands.fa-twitter"></i></a>
+      </div>
+      <p class="policy-text">
+        <a href="#" class="policy-link">Privacy policy</a>
+        <span class="separator">*</span>
+        <a href="#" class="policy-link">Refund policy</a>
+      </p>
+    </div>
+  </footer>
+
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
